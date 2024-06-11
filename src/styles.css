@@ -120,6 +120,19 @@ a:hover {
 }
 
 img.socialIcon {
-  height: 30px;
-  width: 30px;
+  animation: bounce 0.5s;
+  transform: scale(1);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
