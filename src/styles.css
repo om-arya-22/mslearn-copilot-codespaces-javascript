@@ -119,7 +119,7 @@ a:hover {
   text-align: center;
 }
 
-img.socialIcon {
+img.socialIcon:hover {
   animation: bounce 0.5s;
   transform: scale(1);
   animation-iteration-count: infinite;
